@@ -2,7 +2,6 @@
     "name": "charis/tts",
     "description": "integrate some tts",
     "license": "MIT",
-    "type": "composer-plugin",
     "authors": [
         {
             "name": "nnnoml",
