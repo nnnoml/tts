@@ -3,8 +3,8 @@
 require '../vendor/autoload.php';
 
 //请在此填入AppID与AppKey
-$app_id = '2155289476';
-$app_key = 'hShgWfN4D0c7Z849';
+$app_id = '215***9476';
+$app_key = 'hS****0c7Z849';
 
 $text = '123';
 
