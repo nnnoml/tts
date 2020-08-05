@@ -1,5 +1,5 @@
 <?php
-namespace Src\Plug;
+namespace Charis\TTS\Plug;
 
 class TencentTTS implements TTSinterface {
     private $url = 'https://api.ai.qq.com/fcgi-bin/aai/aai_tts';

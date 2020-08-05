@@ -1,5 +1,5 @@
 <?php
-namespace Src\Plug;
+namespace Charis\TTS\Plug;
 
 interface TTSinterface{
     //初始化参数

@@ -1,5 +1,5 @@
 <?php
-namespace Src\Plug;
+namespace Charis\TTS\Plug;
 
 //http://tools.bugscaner.com/tts/
 class BugscanerTTS implements TTSinterface {

@@ -1,5 +1,6 @@
 <?php
-namespace Src;
+namespace Charis\TTS;
+
 
 class TTS{
     private $type_func = '';
@@ -17,7 +18,7 @@ class TTS{
      */
     public function __construct($type,$app_id='',$app_key='',$text)
     {
-        $this->type_func = 'Src\Plug\\'.$type.'TTS';
+        $this->type_func = 'Charis\TTS\Plug\\'.$type.'TTS';
         $this->app_id = $app_id;
         $this->app_key = $app_key;
         $this->text = $text;
