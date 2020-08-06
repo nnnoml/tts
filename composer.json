@@ -9,12 +9,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php" : ">=5.6"
     },
     "autoload": {
         "psr-4": {
-            "Src\\": "Src",
-            "Src\\Plug\\": "Src/Plug"
+            "Charis\\TTS\\": "Src",
+            "Charis\\TTS\\Plug\\": "Src/plug"
         }
     }
 }
