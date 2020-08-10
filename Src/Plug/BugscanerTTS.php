@@ -39,6 +39,9 @@ class BugscanerTTS implements TTSinterface {
 
     public function saveVoice($response,$path,$file_name){
         $speech = $this->formatVoice($response);
+        if(!is_dir($path)){
+            mkdir($path);
+        }
         file_put_contents($path.$file_name.'.mp3', base64_decode($speech));
     }
 
